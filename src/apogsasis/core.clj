@@ -44,30 +44,30 @@
 
 (defn group-releases-by-series [releases]
   (let [grouped (group-by #(cond
-                            (str/starts-with? (:catalog-id %) "aposet") "Sets"
-                            (str/starts-with? (:catalog-id %) "mvapo") "Multi-Artist"
-                            (= (:catalog-id %) "SRmp3_081_Rekombinacja_-_Notoryczni_Wyznawcy_Ewidentnych_Uproszczen") "Special"
-                            :else "Main Catalog") releases)]
+                             (str/starts-with? (:catalog-id %) "aposet") "Sets"
+                             (str/starts-with? (:catalog-id %) "mvapo") "Multi-Artist"
+                             (= (:catalog-id %) "SRmp3_081_Rekombinacja_-_Notoryczni_Wyznawcy_Ewidentnych_Uproszczen") "Special"
+                             :else "Main Catalog") releases)]
     (into {} (map (fn [[k v]] [k (sort-by :catalog-id v)]) grouped))))
 
 (defn sidebar [releases videos current-item item-type]
   [:aside {:style "width: 320px; padding: 1rem; border-right: 1px solid var(--border); height: 100vh; overflow-y: auto; font-family: var(--font-mono, monospace);"}
    [:div
     [:h2 {:style "margin-bottom: 1.5rem; font-size: 1.25rem;"} "apogsasis"]
-    
+
     [:nav
      [:details {:open (= item-type :release) :style "margin-bottom: 1rem;"}
       [:summary {:style "cursor: pointer; padding: 0.5rem; border-radius: 4px; font-weight: 600; list-style: none; user-select: none; display: flex; align-items: center; gap: 0.5rem;"}
        [:span {:style "font-size: 0.75rem;"} "▸"]
        [:span "♪ Music"]
        [:span {:style "opacity: 0.6; font-size: 0.875rem;"} (str "(" (count releases) ")")]]
-      
+
       (let [grouped-releases (group-releases-by-series releases)]
         [:div {:style "margin-left: 1rem; margin-top: 0.5rem;"}
          (for [[section-name section-releases] (sort-by first grouped-releases)]
-           [:details {:open (and (= item-type :release) 
-                                (some #(= (:catalog-id %) (:catalog-id current-item)) section-releases))
-                     :style "margin-bottom: 0.5rem;"}
+           [:details {:open (and (= item-type :release)
+                                 (some #(= (:catalog-id %) (:catalog-id current-item)) section-releases))
+                      :style "margin-bottom: 0.5rem;"}
             [:summary {:style "cursor: pointer; padding: 0.25rem; font-size: 0.875rem; opacity: 0.8; list-style: none; user-select: none; display: flex; align-items: center; gap: 0.25rem;"}
              [:span {:style "font-size: 0.6rem;"} "▸"]
              [:span section-name]
@@ -76,30 +76,30 @@
              (for [release section-releases]
                [:a {:href (url (str "/releases/" (:catalog-id release) ".html"))
                     :style (str "display: block; padding: 0.375rem 0.5rem; margin-bottom: 0.125rem; text-decoration: none; border-radius: 3px; font-size: 0.8rem; line-height: 1.3; "
-                               (when (= (:catalog-id release) (:catalog-id current-item)) "background-color: var(--surface); font-weight: 600; "))}
+                                (when (= (:catalog-id release) (:catalog-id current-item)) "background-color: var(--surface); font-weight: 600; "))}
                 [:div
                  [:span {:style "opacity: 0.6; margin-right: 0.5rem; font-family: var(--font-mono, monospace);"} (:catalog-id release)]
                  [:span (:group release)]
                  [:div {:style "font-size: 0.7rem; opacity: 0.7; margin-top: 0.125rem;"} (:title release)]]])]])])]
-     
+
      [:details {:open (= item-type :video) :style "margin-bottom: 1rem;"}
       [:summary {:style "cursor: pointer; padding: 0.5rem; border-radius: 4px; font-weight: 600; list-style: none; user-select: none; display: flex; align-items: center; gap: 0.5rem;"}
        [:span {:style "font-size: 0.75rem;"} "▸"]
        [:span "▶ Videos"]
        [:span {:style "opacity: 0.6; font-size: 0.875rem;"} (str "(" (count videos) ")")]]
-      
+
       [:div {:style "margin-left: 1rem; margin-top: 0.5rem;"}
        (for [video videos]
          [:a {:href (url (str "/videos/" (str/replace (:name video) #"\s+" "-") ".html"))
               :style (str "display: block; padding: 0.375rem 0.5rem; margin-bottom: 0.125rem; text-decoration: none; border-radius: 3px; font-size: 0.8rem; "
-                         (when (= (:name video) (:name current-item)) "background-color: var(--surface); font-weight: 600; "))}
+                          (when (= (:name video) (:name current-item)) "background-color: var(--surface); font-weight: 600; "))}
           (:name video)])]]]]])
 
 (defn release-content [release]
   [:div {:style "display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;"}
    [:div
     (when-let [cover (first (:covers release))]
-      [:img {:src (url (:url cover)) :alt (:title release) 
+      [:img {:src (url (:url cover)) :alt (:title release)
              :style "width: 100%; height: auto; border-radius: 8px; margin-bottom: 1.5rem;"}])
     (when (:release-notes release)
       [:div
@@ -108,46 +108,46 @@
    [:div
     [:h1 {:style "margin-bottom: 0.5rem;"} (:title release)]
     [:h2 {:style "margin-bottom: 2rem; opacity: 0.7; font-weight: normal;"} (:group release)]
-    
+
     (when (:tracks release)
       [:div {:style "margin-bottom: 2rem;"}
        [:h3 {:style "margin-bottom: 1rem;"} "Tracks"]
        [:ol {:style "padding-left: 1.5rem;"}
         (for [track (:tracks release)]
           [:li {:style "margin-bottom: 0.5rem;"} (:title track)])]])
-    
+
     [:div {:style "margin-bottom: 2rem;"}
      [:h3 {:style "margin-bottom: 1rem;"} "Listen"]
-     
+
      ;; Archive.org player (using catalog-id like original Meteor app)
      (when (:catalog-id release)
        [:div {:style "margin-bottom: 1rem;"}
-        [:h4 {:style "margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;"} 
-         "Archive.org " 
+        [:h4 {:style "margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;"}
+         "Archive.org "
          [:a {:href (str "https://archive.org/details/" (:catalog-id release))
               :target "_blank"
               :style "opacity: 0.6; text-decoration: none;"} "↗"]]
         [:iframe {:src (str "https://archive.org/embed/" (:catalog-id release) "&playlist=1")
-                 :width "100%" :height "300" :frameborder "0" 
-                 :allowfullscreen true
-                 :style "border-radius: 8px; margin-bottom: 1rem;"}]])
-     
+                  :width "100%" :height "300" :frameborder "0"
+                  :allowfullscreen true
+                  :style "border-radius: 8px; margin-bottom: 1rem;"}]])
+
      ;; Spotify player
      (when (:spotify-url release)
        [:div {:style "margin-bottom: 1rem;"}
         [:h4 {:style "margin-bottom: 0.5rem; font-size: 0.9rem; opacity: 0.8;"} "Spotify"]
-        [:iframe {:src (str "https://open.spotify.com/embed/album/" 
-                           (last (str/split (:spotify-url release) #":")))
-                 :width "100%" :height "352" :frameborder "0" :allowtransparency "true"
-                 :style "border-radius: 8px;"}]])]
-    
+        [:iframe {:src (str "https://open.spotify.com/embed/album/"
+                            (last (str/split (:spotify-url release) #":")))
+                  :width "100%" :height "352" :frameborder "0" :allowtransparency "true"
+                  :style "border-radius: 8px;"}]])]
+
     (when (:downloads release)
       [:div
        [:h3 {:style "margin-bottom: 1rem;"} "Downloads"]
        (for [download (:downloads release)]
          [:div {:style "margin-bottom: 1rem;"}
-          [:a {:href (:url download) 
-               :style "display: inline-block; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; text-decoration: none; transition: all 0.2s ease;"} 
+          [:a {:href (:url download)
+               :style "display: inline-block; padding: 0.5rem 1rem; border: 1px solid var(--border); border-radius: 4px; text-decoration: none; transition: all 0.2s ease;"}
            "⬇ " (:name download)]
           (when (:description download)
             [:br]
@@ -158,12 +158,12 @@
    [:h1 {:style "margin-bottom: 2rem;"} (:name video)]
    [:div {:style "border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 2rem;"}
     [:iframe {:src (str "https://player.vimeo.com/video/" (:vimeo-id video))
-             :width "100%" :height "500" :frameborder "0" :allowfullscreen true
-             :style "display: block;"}]]])
+              :width "100%" :height "500" :frameborder "0" :allowfullscreen true
+              :style "display: block;"}]]])
 
 (defn home-page [releases videos]
   (let [latest-release (last releases)]
-    (base-layout 
+    (base-layout
      "apogsasis"
      [:section.vbox.bg-black
       [:section.hbox.stretch
@@ -173,7 +173,7 @@
 
 (defn release-page [releases videos catalog-id]
   (let [release (get-release-by-id releases catalog-id)]
-    (base-layout 
+    (base-layout
      (str (:title release) " - " (:group release))
      [:div {:style "display: flex; min-height: 100vh;"}
       (sidebar releases videos release :release)
@@ -182,7 +182,7 @@
 
 (defn video-page [releases videos video-name]
   (let [video (get-video-by-name videos video-name)]
-    (base-layout 
+    (base-layout
      (str (:name video) " - apogsasis")
      [:div {:style "display: flex; min-height: 100vh;"}
       (sidebar releases videos video :video)
@@ -190,7 +190,7 @@
        (video-content video)]])))
 
 (defn videos-index [releases videos]
-  (base-layout 
+  (base-layout
    "Videos - apogsasis"
    [:div {:style "display: flex; min-height: 100vh;"}
     (sidebar releases videos nil :video)
@@ -202,7 +202,7 @@
          [:a {:href (url (str "/videos/" (str/replace (:name video) #"\s+" "-") ".html"))
               :style "text-decoration: none; color: inherit;"}
           [:iframe {:src (str "https://player.vimeo.com/video/" (:vimeo-id video))
-                   :width "100%" :height "200" :frameborder "0" :style "display: block;"}]
+                    :width "100%" :height "200" :frameborder "0" :style "display: block;"}]
           [:div {:style "padding: 1rem;"}
            [:h4 {:style "margin: 0; font-size: 1rem;"} (:name video)]]]])]]]))
 

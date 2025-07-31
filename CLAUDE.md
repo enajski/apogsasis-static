@@ -87,6 +87,10 @@ The deploy script builds the app, creates a bundle, and deploys to a remote serv
 - **Validate syntax** with `clj -M:build` before committing
 - Use proper Clojure formatting and indentation
 
+## Formatting and Cleanup
+
+- Run `cljfmt fix src` after coding is complete to ensure that formatting is correct
+
 ## Current Theme
 
 The application now uses [WebTUI CSS](https://webtui.ironclad.sh/) for a clean, terminal-style interface:
