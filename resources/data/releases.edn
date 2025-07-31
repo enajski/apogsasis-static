@@ -99,7 +99,11 @@
   :catalog-number 2
   :catalog-prefix "apo"
   :colorscheme ["178B3A" "EDB74C"]
-  :covers []
+  :covers [
+    {
+      :url "/images/covers/SRmp3_081_Rekombinacja.jpg"
+    }
+  ]
   :release-notes "Sounds ground to grit. After a few listens they become the new 'ambient'."
   :tracks [
     {
@@ -144,7 +148,11 @@
   :catalog-number 3
   :catalog-prefix "apo"
   :colorscheme ["1D777E" "808648"]
-  :covers []
+  :covers [
+    {
+      :url "/images/covers/apo003.jpg"
+    }
+  ]
   :release-notes "An ode to the fit-like dance moves seen at raves, breakcore parties and weird festivals worldwide."
   :tracks [
     {
@@ -691,7 +699,11 @@
   :catalog-number 1
   :catalog-prefix "aposet"
   :colorscheme ["8E3718" "E8EAF8"]
-  :covers []
+  :covers [
+    {
+      :url "/images/covers/aposet01.jpg"
+    }
+  ]
   :release-notes "Lots and lots of Venetian Snares."
   :tracks [
     {
@@ -826,7 +838,11 @@
   :catalog-number 1
   :catalog-prefix "mvapo"
   :colorscheme ["24355D" "E2CA89"]
-  :covers []
+  :covers [
+    {
+      :url "/images/covers/mvapo01.jpg"
+    }
+  ]
   :release-notes "Released together with the Musica Vermella netlabel."
   :tracks [
     {
