@@ -52,8 +52,8 @@
 (defn group-releases-by-series [releases]
   (let [grouped (group-by #(cond
                              (str/starts-with? (:catalog-id %) "aposet") "Sets"
-                             (str/starts-with? (:catalog-id %) "mvapo") "Multi-Artist"
-                             (= (:catalog-id %) "SRmp3_081_Rekombinacja_-_Notoryczni_Wyznawcy_Ewidentnych_Uproszczen") "Special"
+                             (or (str/starts-with? (:catalog-id %) "mvapo")
+                                 (= (:catalog-id %) "SRmp3_081_Rekombinacja_-_Notoryczni_Wyznawcy_Ewidentnych_Uproszczen")) "Collabs"
                              :else "Main Catalog") releases)]
     (into {} (map (fn [[k v]] [k (sort-by :catalog-id v)]) grouped))))
 
