@@ -11,4 +11,4 @@
            :nrepl {:extra-deps {nrepl/nrepl {:mvn/version "1.1.0"}
                                 cider/cider-nrepl {:mvn/version "0.47.1"}}
                    :main-opts ["-m" "nrepl.cmdline" "--middleware" "[cider.nrepl/cider-middleware]"]}
-           :build {:main-opts ["-m" "apogsasis.build"]}}}}
+           :build {:main-opts ["-m" "apogsasis.build"]}}}
