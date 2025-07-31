@@ -5,6 +5,11 @@
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
+(def base-path (or (System/getenv "BASE_PATH") ""))
+
+(defn url [path]
+  (str base-path path))
+
 (defn load-data [filename]
   (-> (str "resources/data/" filename)
       slurp
@@ -32,8 +37,8 @@
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
     [:title title]
     [:link {:rel "stylesheet" :href "https://cdn.jsdelivr.net/npm/@webtui/css@latest/dist/full.css"}]
-    [:link {:rel "stylesheet" :href "/css/nav-tree.css"}]
-    [:link {:rel "icon" :type "image/x-icon" :href "/favicon.ico"}]]
+    [:link {:rel "stylesheet" :href (url "/css/nav-tree.css")}]
+    [:link {:rel "icon" :type "image/x-icon" :href (url "/favicon.ico")}]]
    [:body
     content]])
 
@@ -69,7 +74,7 @@
              [:span {:style "opacity: 0.6; font-size: 0.75rem;"} (str "(" (count section-releases) ")")]]
             [:div {:style "margin-left: 1rem; margin-top: 0.25rem;"}
              (for [release section-releases]
-               [:a {:href (str "/releases/" (:catalog-id release) ".html")
+               [:a {:href (url (str "/releases/" (:catalog-id release) ".html"))
                     :style (str "display: block; padding: 0.375rem 0.5rem; margin-bottom: 0.125rem; text-decoration: none; border-radius: 3px; font-size: 0.8rem; line-height: 1.3; "
                                (when (= (:catalog-id release) (:catalog-id current-item)) "background-color: var(--surface); font-weight: 600; "))}
                 [:div
@@ -85,7 +90,7 @@
       
       [:div {:style "margin-left: 1rem; margin-top: 0.5rem;"}
        (for [video videos]
-         [:a {:href (str "/videos/" (str/replace (:name video) #"\s+" "-") ".html")
+         [:a {:href (url (str "/videos/" (str/replace (:name video) #"\s+" "-") ".html"))
               :style (str "display: block; padding: 0.375rem 0.5rem; margin-bottom: 0.125rem; text-decoration: none; border-radius: 3px; font-size: 0.8rem; "
                          (when (= (:name video) (:name current-item)) "background-color: var(--surface); font-weight: 600; "))}
           (:name video)])]]]]])
@@ -194,7 +199,7 @@
      [:div {:style "display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;"}
       (for [video videos]
         [:div {:style "border: 1px solid var(--border); border-radius: 8px; overflow: hidden; transition: all 0.2s ease;"}
-         [:a {:href (str "/videos/" (str/replace (:name video) #"\s+" "-") ".html")
+         [:a {:href (url (str "/videos/" (str/replace (:name video) #"\s+" "-") ".html"))
               :style "text-decoration: none; color: inherit;"}
           [:iframe {:src (str "https://player.vimeo.com/video/" (:vimeo-id video))
                    :width "100%" :height "200" :frameborder "0" :style "display: block;"}]
