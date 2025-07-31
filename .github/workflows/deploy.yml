@@ -36,7 +36,7 @@ jobs:
         restore-keys: cljdeps-
         
     - name: Build static site
-      run: clj -M:build
+      run: clojure -M:build
       
     - name: Copy static assets
       run: cp -r resources/public/* dist/
