@@ -1,0 +1,940 @@
+[
+ {
+  :catalog-id "apo001"
+  :group "ENAY"
+  :title "Selfprogrammoid"
+  :catalog-number 1
+  :catalog-prefix "apo"
+  :colorscheme ["9D0000" "BEC9B6"]
+  :covers [
+    {
+      :url "http://archive.org/download/apo001/apo001.jpg"
+    }
+  ]
+  :release-notes "Can the brain retrain itself?"
+  :tracks [
+    {
+      :title "Tao"
+      :url "http://www.archive.org/download/apo001/01-tao.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Grajmowcy"
+      :url "http://www.archive.org/download/apo001/02-grajmowcy.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "If You Think Terence McKenna Samples Are Cliche Think Again Motherfucker"
+      :url "http://www.archive.org/download/apo001/03-if_you_think_Terence_McKenna_samples_are_cliche_think_again_motherfucker.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Diz Iz Truly A Warnin"
+      :url "http://www.archive.org/download/apo001/04-diz_truly_iz_a_warnin.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Click Jungle"
+      :url "http://www.archive.org/download/apo001/05-click_jungle.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Maxmin"
+      :url "http://www.archive.org/download/apo001/06-maxmin.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Vinyl"
+      :url "http://www.archive.org/download/apo001/07-vinyl.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Headphase One"
+      :url "http://www.archive.org/download/apo001/08-headphase_one.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Headphase Two"
+      :url "http://www.archive.org/download/apo001/09-headphase_two.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+    {
+      :title "Headphase Omega"
+      :url "http://www.archive.org/download/apo001/10-headphase_omega.mp3"
+      :audio-type "mp3"
+      :bitrate 192
+    }
+  ]
+  :spotify-url "spotify:album:3cWHMiIO02elcht08HQQka"
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5518"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://www.archive.org/download/apo001/Selfprogrammoid_mp3.zip"
+      :description "Contains audio files"
+    }
+  ]}
+
+ {
+  :catalog-id "SRmp3_081_Rekombinacja_-_Notoryczni_Wyznawcy_Ewidentnych_Uproszczen"
+  :group "Rekombinacja"
+  :title "Notoryczni wyznawcy Ewidentnych Uproszczen"
+  :catalog-number 2
+  :catalog-prefix "apo"
+  :colorscheme ["178B3A" "EDB74C"]
+  :covers [
+    {
+      :url "http://images.prachanda.zhdk.anorg.net/release/5537.jpg"
+    }
+  ]
+  :release-notes "Sounds ground to grit. After a few listens they become the new 'ambient'."
+  :tracks [
+    {
+      :title "Czarne Bulwy Ignorancji w Szarych Obszarach Ambiwalencji"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo002update/01.czarnebulwyignorancjiwszarychobszarachambiwalencji.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Archetyp Mordu Kategorialnego I Stopien Predkosci Wprost"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo002update/02.archetypmordukategorialnegoistopienpredkosciwprostproporcjonalnydosilyzapominania.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Strach Przed Wypadnieciem z Pedzacego Coraz Szybciej Pociagu Postepu"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo002update/03.strachprzedwypadnieciemzpedzacegocorazszybciejpociagupostepu.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Brak Zadania Powszechnej Waznosci"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo002update/04.brakzadaniapowszechnejwaznosci.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5537"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo003"
+  :group "Various Artists"
+  :title "Epilepsy"
+  :catalog-number 3
+  :catalog-prefix "apo"
+  :colorscheme ["1D777E" "808648"]
+  :covers [
+    {
+      :url "http://images.prachanda.zhdk.anorg.net/release/5522.jpg"
+    }
+  ]
+  :release-notes "An ode to the fit-like dance moves seen at raves, breakcore parties and weird festivals worldwide."
+  :tracks [
+    {
+      :title "I Love Cats But I Can't Stand Fucking Cat Fur On My Black Clothes Anymore"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo003/01ILoveCatsButICantStandFuckingCatFurOnMyBlackClothesAnymore.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Window Of Appearences (Glass/Pumpkins Remix)"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo003/02WindowOfAppearancesglass_pumkinsRemix.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Taitbout"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo003/03Taitbout.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Jebac Policje"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo003/04JebaPolicj.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Noi Albinoi"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo003/05NoiAlbinoi.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5522"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://www.archive.org/download/apo003/apo003Epilepsymp3vbr.zip"
+      :description "Contains audio files"
+    }
+  ]}
+
+ {
+  :catalog-id "apo004"
+  :group "Grammar"
+  :title "Derealization"
+  :catalog-number 4
+  :catalog-prefix "apo"
+  :colorscheme ["382F9B" "A4B479"]
+  :covers [
+    {
+      :url "http://ia600504.us.archive.org/3/items/apo004/derealization.jpg"
+    }
+    {
+      :url "http://ia600504.us.archive.org/3/items/apo004/derealizationtyl.jpg"
+    }
+  ]
+  :release-notes "Derealization is the perception of the world as unreal. All stages shown here."
+  :tracks [
+    {
+      :title "Downer"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo004/01_Grammar_-_Downer.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Unfortunate Incidents"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo004/02_Grammar_-_Unfortunate_Incidents.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Bird Seed Bullets"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo004/03_Grammar_-_Bird_Seed_Bullets.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5521"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://www.archive.org/download/apo004/Grammar-DerealizationMP3.zip"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo005"
+  :group "Various Artists"
+  :title "Dyspensa"
+  :catalog-number 5
+  :catalog-prefix "apo"
+  :colorscheme ["60140A" "958B28"]
+  :covers [
+    {
+      :url "http://ia600408.us.archive.org/16/items/apo005/despensa.jpg"
+    }
+  ]
+  :release-notes "This is the essence of compilations: bring many crazy-talented people on one playlist."
+  :tracks [
+    {
+      :title "DXM"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo005/01.Zombie%20-%20dxm.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Surely It Doesn't Take That Long To Take A Shit You Fuckin' Twat"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo005/02.Lastbooss%20-%20surely%20it%20doesnt%20take%20that%20long%20to%20take%20a%20shit%20you%20fuckin%20twat.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5658"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://www.archive.org/download/apo005/apo005VA-Dyspensa.zip"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo006"
+  :group "ENAY"
+  :title "Simulatie"
+  :catalog-number 6
+  :catalog-prefix "apo"
+  :colorscheme ["FDB70A" "5C91BB"]
+  :covers [
+    {
+      :url "http://ia600404.us.archive.org/25/items/apo006/cover.jpg"
+    }
+  ]
+  :release-notes "If we were part of a simulation, would we be able to figure it out?"
+  :tracks [
+    {
+      :title "I Command Thee"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo006/01-ENAY-ICommandThee.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Simple Minded"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo006/02-ENAY-SimpleMinded.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Poranek"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo006/03-ENAY-Poranek.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :spotify-url "spotify:album:3y9OgF6XXiUP1YHGxbhLVP"
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5660"
+      :description "Contains audio files, cover and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://www.archive.org/download/apo006/apo006ENAY-SimulatieMp3.zip"
+      :description "Contains audio files, covers, extra artwork and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo007"
+  :group "My Gloomy Machine"
+  :title "The Other Outlet Serie: Grey Delirium Pattern"
+  :catalog-number 7
+  :catalog-prefix "apo"
+  :colorscheme ["8CA0AA" "CCDBDD"]
+  :covers [
+    {
+      :url "http://ia600406.us.archive.org/27/items/apo007/FrontCover.jpg"
+    }
+    {
+      :url "http://ia600406.us.archive.org/27/items/apo007/BackCover.jpg"
+    }
+  ]
+  :release-notes "The title says it all."
+  :tracks [
+    {
+      :title "Mercredi 5"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo007/MyGloomyMachine-01-Mercredi5Aout.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Mardi 11 & Mercredi 12"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo007/MyGloomyMachine-02-Mardi11AoutMercredi12Aout.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5975"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo008"
+  :group "Various Artists"
+  :title "Egipt"
+  :catalog-number 8
+  :catalog-prefix "apo"
+  :colorscheme ["8B8A24" "880F52"]
+  :covers [
+    {
+      :url "http://archive.org/download/apo008/egiptwebcover.jpg"
+    }
+    {
+      :url "http://archive.org/download/apo008/egiptwebback.jpg"
+    }
+  ]
+  :release-notes "Egypt has long been home to some spooky action. We explore."
+  :tracks [
+    {
+      :title "My Egyptian Vegan Voku Conference"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo008correct/01.ENAY-MyEgyptianVeganVokuConference.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Chomik"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo008correct/02.HHoruz-Chomik.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 192
+      :url "http://sonicsquirrel.net/get/release/zip/7183"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 192
+      :url "http://www.archive.org/download/apo008/apo008VA-Egiptmp3.zip"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo009"
+  :group "Eraser"
+  :title "9"
+  :catalog-number 9
+  :catalog-prefix "apo"
+  :colorscheme ["582C04" "BAC4D4"]
+  :covers [
+    {
+      :url "http://archive.org/download/apo009/Front2.jpg"
+    }
+    {
+      :url "http://archive.org/download/apo009/Back2.jpg"
+    }
+  ]
+  :release-notes "Nine is a strong number and so is this release."
+  :tracks [
+    {
+      :title "Fun With A Gun"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-01-FunWithAGun.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Be Careful Mom And Dad"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-02-BeCarefulMomAndDad.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "In Tro Mad"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-03-InTroMad.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Get Mad"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-04-GetMad.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Where's A Shit"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-05-WheresAShit.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "AH1 N1"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-06-AH1N1.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Da Fuckin Humans"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-07-DaFucknHumans.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Earth Summit"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-08-EarthSummit.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Reject Fly Boot"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo009correct/Eraser-09-RejectFlyBoot.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/6916"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://www.archive.org/download/apo009/apo009Eraser-9mp3s.zip"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "ogg"
+      :bitrate 500
+      :url "http://www.archive.org/download/apo009/apo009Eraser-9ogg.zip"
+      :description "Contains high quality audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo010"
+  :group "Urbanoise"
+  :title "Lower Places"
+  :catalog-number 10
+  :catalog-prefix "apo"
+  :colorscheme ["5F6353" "F8F9E8"]
+  :covers [
+    {
+      :url "https://archive.org/download/apo10/LowerPlaces.jpg"
+    }
+    {
+      :url "https://archive.org/download/apo10/Tracklist.jpg"
+    }
+  ]
+  :release-notes "Beautiful and rich soundscapes."
+  :tracks [
+    {
+      :title "By The Church Behind The Graveyard"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-01-ByTheChurchBehindTheGraveyard.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Mira Alpha p. I"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-02-MiraAlpha.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Tower's Daughter"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-03-TowersDaughterFluteVassilisOikonomidis.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Sharp Night Fall"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-04-SharpNightFallFluteVassilisOikonomidis.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Mira Alpha p. II"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-05-MiraAlphaII.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Nihteri"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-06-Nihteri.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Every Journey Ends In The Same Place"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-07-TheTripThatWeTalkAbout.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Indolence Afternoon In Perastra"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo010/apo010-Urbanoise-08-IndolenceAfternoonInPerastraPianoLeandrosKyriakopoulos.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/10858"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo011"
+  :group "ROHSTEIN"
+  :title "ROHSTEIN"
+  :catalog-number 11
+  :catalog-prefix "apo"
+  :colorscheme ["2A2A2A" "ACACAC"]
+  :covers [
+    {
+      :url "https://archive.org/download/apo011/FRONT.jpg"
+    }
+    {
+      :url "https://archive.org/download/apo011/Back.jpg"
+    }
+  ]
+  :release-notes "Powerful and playful."
+  :tracks [
+    {
+      :title "My Dzieci"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-01-MyDzieci.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Frozen Apartment -30"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-02-FrozenApartment-30.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Ganzenhoedstertje"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-03-Ganzenhoedstertje.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Cleanig The Mouse Hole"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-04-CleanigTheMouseHole.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Erkenntnistheo an den Flussen Babylons"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-05-ErkenntnistheoAnDenFlussenBabylons.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Supernatural"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-06-Supernatural.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "First Step"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-07-FirstStep.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Astaroth Egzorcizme"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-08-AstarothEgzorcizme.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Gremlins"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/apo011/apo011-ROHSTEIN-09-Gremlins.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/10856"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "aposet01"
+  :group "Trippmatic"
+  :title "Morte A Venezia"
+  :catalog-number 1
+  :catalog-prefix "aposet"
+  :colorscheme ["8E3718" "E8EAF8"]
+  :covers [
+    {
+      :url "http://images.prachanda.zhdk.anorg.net/release/5519.jpg"
+    }
+  ]
+  :release-notes "Lots and lots of Venetian Snares."
+  :tracks [
+    {
+      :title "Morte A Venezia"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/aposet01/Trippmatic_-_Morte_A_Venezia.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 192
+      :url "http://sonicsquirrel.net/get/release/zip/5519"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 192
+      :url "http://www.archive.org/download/aposet01/aposet01_vbr_mp3.zip"
+      :description "Contains audio file"
+    }
+  ]}
+
+ {
+  :catalog-id "aposet02"
+  :group "ENAY"
+  :title "norbury 2"
+  :catalog-number 2
+  :catalog-prefix "aposet"
+  :colorscheme ["A25F3B" "F5D89B"]
+  :covers [
+    {
+      :url "https://archive.org/download/aposet02/cover.jpg"
+    }
+  ]
+  :release-notes "May the custom of giving away old, unreleased music live long ! Thirty two minutes of glitchy and/or chillout electronic sounds. I can't say this is innovative in any way (and if you listen close enough, you'll find a number of preset/samplepack cliches - sorry!) but it sure makes my retrospective, laidback smoking sessions wonderfully enjoyable. Enjoy. (no breaks here too, hehe)"
+  :tracks [
+    {
+      :title "Norbury 2"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/aposet02/ENAY-norbury2.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :spotify-url "spotify:album:4HqifGobffhIrklYeKZD5Q"
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5520"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "aposet03"
+  :group "Korporatia"
+  :title "Edit"
+  :catalog-number 3
+  :catalog-prefix "aposet"
+  :colorscheme ["CB0713" "968966"]
+  :covers [
+    {
+      :url "https://archive.org/download/aposet03/korporatiaedit.jpg"
+    }
+  ]
+  :release-notes "Edited version of a bedroom concerto."
+  :tracks [
+    {
+      :title "Edit"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/aposet03/korporatiaedit.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/5595"
+      :description "Contains audio files, covers and release notes"
+    }
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://www.archive.org/download/aposet03/korporatia.zip"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "aposet04"
+  :group "Trippmatic"
+  :title "Drillovnica"
+  :catalog-number 4
+  :catalog-prefix "aposet"
+  :colorscheme ["700A07" "FD5451"]
+  :covers [
+    {
+      :url "https://archive.org/download/aposet04/drillovnicamini.jpg"
+    }
+  ]
+  :release-notes "Relentless Drill'n'Bass from the breaks connoisseur."
+  :tracks [
+    {
+      :title "Drillovnica"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/aposet04/aposet04-trippmatic-drillovnica.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/11553"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "mvapo01"
+  :group "Various Artists"
+  :title "Hybrid Disorder"
+  :catalog-number 1
+  :catalog-prefix "mvapo"
+  :colorscheme ["24355D" "E2CA89"]
+  :covers [
+    {
+      :url "http://images.prachanda.zhdk.anorg.net/release/7360.jpg"
+    }
+  ]
+  :release-notes "Released together with the Musica Vermella netlabel."
+  :tracks [
+    {
+      :title "Caravan Disaster"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/mvapo001/01%20Caravan%20Disaster%20-%20Madame.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Neurodegeneracja"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/mvapo001/02%20Neurodegeneracja%20-%20Enay.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Daywalker"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/mvapo001/03%20Daywalker%20-%20Narky.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Asker"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/mvapo001/04%20Asker%20-%20KRS.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "To Co Nowe W Konsumeryzmie Po Nastaniu Mediow Elektronicznych"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/mvapo001/05%20To_Co_Nowe-Rakombiacja.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+    {
+      :title "Hysteric System Jazz"
+      :url "http://media.zhdk.sonicsquirrel.net/apogsasis/mvapo001/06%20Hysteric%20System%20Jazz%20-%20Madame.mp3"
+      :audio-type "mp3"
+      :bitrate 320
+    }
+  ]
+  :downloads [
+    {
+      :name "Sonic Squirrel .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "http://sonicsquirrel.net/get/release/zip/7360"
+      :description "Contains audio files, covers and release notes"
+    }
+  ]}
+
+ {
+  :catalog-id "apo013"
+  :group "Various Artists"
+  :title "Where's the fucking snare?"
+  :catalog-number 13
+  :catalog-prefix "apo"
+  :colorscheme ["24355D" "E2CA89"]
+  :covers [
+    {
+      :url "https://archive.org/download/apo013/01where_is_the.jpg"
+    }
+  ]
+  :release-notes "There's a question we've been asking constantly for the past couple of years. Yes, the kick is nice but WHERE'S THE FUCKIN' SNARE? Here it is. Enjoy."
+  :downloads [
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate "VBR"
+      :url "https://archive.org/compress/apo013/formats=VBR%20MP3&file=/apo013.zip"
+      :description "Contains audio files"
+    }
+  ]}
+
+ {
+  :catalog-id "apo014"
+  :group "Ddekombinacja"
+  :title "dde/rmx"
+  :catalog-number 14
+  :catalog-prefix "apo"
+  :colorscheme ["24355D" "E2CA89"]
+  :covers [
+    {
+      :url "https://archive.org/download/apo014/dde%20-rmx.jpg"
+    }
+  ]
+  :release-notes "Ddekombinacja recombined."
+  :downloads [
+    {
+      :name "Archive.org .ZIP"
+      :audio-type "mp3"
+      :bitrate 320
+      :url "https://archive.org/compress/apo014/formats=VBR%20MP3&file=/apo014.zip"
+      :description "Contains audio files"
+    }
+  ]}
+]

@@ -1,0 +1,59 @@
+/* Navigation Tree Enhancements */
+
+/* Custom styles for details/summary tree navigation */
+details > summary {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+details > summary:hover {
+  background-color: var(--surface, rgba(255, 255, 255, 0.05));
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::marker {
+  display: none;
+}
+
+/* Arrow rotation animation */
+details[open] > summary > span:first-child {
+  transform: rotate(90deg);
+  transition: transform 0.2s ease;
+}
+
+details:not([open]) > summary > span:first-child {
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+}
+
+/* Tree indentation lines (optional) */
+details > div {
+  border-left: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* Link hover states */
+nav a:hover {
+  background-color: var(--surface, rgba(255, 255, 255, 0.05)) !important;
+  transition: background-color 0.2s ease;
+}
+
+/* Active state enhancements */
+nav a[style*="background-color: var(--surface)"] {
+  border-left: 3px solid var(--accent, #00ff88);
+  padding-left: calc(0.5rem - 3px) !important;
+}
+
+/* Responsive navigation */
+@media (max-width: 768px) {
+  aside {
+    width: 100% !important;
+    height: auto !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--border) !important;
+  }
+}

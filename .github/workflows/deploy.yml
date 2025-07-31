@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Java
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '21'
+        
+    - name: Setup Clojure CLI
+      uses: DeLaGuardo/setup-clojure@12.5
+      with:
+        cli: latest
+        
+    - name: Cache Clojure dependencies
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.m2/repository
+          ~/.gitlibs
+          ~/.clojure
+        key: cljdeps-${{ hashFiles('deps.edn') }}
+        restore-keys: cljdeps-
+        
+    - name: Build static site
+      run: clj -M:build
+      
+    - name: Copy static assets
+      run: cp -r resources/public/* dist/
+      
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
