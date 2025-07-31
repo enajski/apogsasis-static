@@ -99,7 +99,7 @@
   [:div {:style "display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;"}
    [:div
     (when-let [cover (first (:covers release))]
-      [:img {:src (:url cover) :alt (:title release) 
+      [:img {:src (url (:url cover)) :alt (:title release) 
              :style "width: 100%; height: auto; border-radius: 8px; margin-bottom: 1.5rem;"}])
     (when (:release-notes release)
       [:div
