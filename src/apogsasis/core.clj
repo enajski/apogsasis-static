@@ -5,7 +5,14 @@
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
-(def base-path (or (System/getenv "BASE_PATH") ""))
+(def base-path 
+  (let [env-base-path (System/getenv "BASE_PATH")
+        jvm-base-path (System/getProperty "BASE_PATH")]
+    (cond
+      (= env-base-path "none") ""
+      env-base-path env-base-path
+      jvm-base-path jvm-base-path
+      :else "")))
 
 (defn url [path]
   (str base-path path))

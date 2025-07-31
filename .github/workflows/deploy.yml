@@ -41,8 +41,6 @@ jobs:
         
     - name: Build static site
       run: clojure -M:build
-      env:
-        BASE_PATH: /apogsasis-static
       
     - name: Copy static assets
       run: cp -r resources/public/* dist/
