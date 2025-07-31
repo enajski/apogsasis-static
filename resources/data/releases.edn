@@ -8,7 +8,7 @@
   :colorscheme ["9D0000" "BEC9B6"]
   :covers [
     {
-      :url "http://archive.org/download/apo001/apo001.jpg"
+      :url "/images/covers/apo001.jpg"
     }
   ]
   :release-notes "Can the brain retrain itself?"
@@ -99,11 +99,7 @@
   :catalog-number 2
   :catalog-prefix "apo"
   :colorscheme ["178B3A" "EDB74C"]
-  :covers [
-    {
-      :url "http://images.prachanda.zhdk.anorg.net/release/5537.jpg"
-    }
-  ]
+  :covers []
   :release-notes "Sounds ground to grit. After a few listens they become the new 'ambient'."
   :tracks [
     {
@@ -148,11 +144,7 @@
   :catalog-number 3
   :catalog-prefix "apo"
   :colorscheme ["1D777E" "808648"]
-  :covers [
-    {
-      :url "http://images.prachanda.zhdk.anorg.net/release/5522.jpg"
-    }
-  ]
+  :covers []
   :release-notes "An ode to the fit-like dance moves seen at raves, breakcore parties and weird festivals worldwide."
   :tracks [
     {
@@ -212,10 +204,10 @@
   :colorscheme ["382F9B" "A4B479"]
   :covers [
     {
-      :url "http://ia600504.us.archive.org/3/items/apo004/derealization.jpg"
+      :url "/images/covers/apo004-front.jpg"
     }
     {
-      :url "http://ia600504.us.archive.org/3/items/apo004/derealizationtyl.jpg"
+      :url "/images/covers/apo004-back.jpg"
     }
   ]
   :release-notes "Derealization is the perception of the world as unreal. All stages shown here."
@@ -265,7 +257,7 @@
   :colorscheme ["60140A" "958B28"]
   :covers [
     {
-      :url "http://ia600408.us.archive.org/16/items/apo005/despensa.jpg"
+      :url "/images/covers/apo005.jpg"
     }
   ]
   :release-notes "This is the essence of compilations: bring many crazy-talented people on one playlist."
@@ -309,7 +301,7 @@
   :colorscheme ["FDB70A" "5C91BB"]
   :covers [
     {
-      :url "http://ia600404.us.archive.org/25/items/apo006/cover.jpg"
+      :url "/images/covers/apo006.jpg"
     }
   ]
   :release-notes "If we were part of a simulation, would we be able to figure it out?"
@@ -360,10 +352,10 @@
   :colorscheme ["8CA0AA" "CCDBDD"]
   :covers [
     {
-      :url "http://ia600406.us.archive.org/27/items/apo007/FrontCover.jpg"
+      :url "/images/covers/apo007-front.jpg"
     }
     {
-      :url "http://ia600406.us.archive.org/27/items/apo007/BackCover.jpg"
+      :url "/images/covers/apo007-back.jpg"
     }
   ]
   :release-notes "The title says it all."
@@ -400,10 +392,10 @@
   :colorscheme ["8B8A24" "880F52"]
   :covers [
     {
-      :url "http://archive.org/download/apo008/egiptwebcover.jpg"
+      :url "/images/covers/apo008-front.jpg"
     }
     {
-      :url "http://archive.org/download/apo008/egiptwebback.jpg"
+      :url "/images/covers/apo008-back.jpg"
     }
   ]
   :release-notes "Egypt has long been home to some spooky action. We explore."
@@ -447,10 +439,10 @@
   :colorscheme ["582C04" "BAC4D4"]
   :covers [
     {
-      :url "http://archive.org/download/apo009/Front2.jpg"
+      :url "/images/covers/apo009-front.jpg"
     }
     {
-      :url "http://archive.org/download/apo009/Back2.jpg"
+      :url "/images/covers/apo009-back.jpg"
     }
   ]
   :release-notes "Nine is a strong number and so is this release."
@@ -543,10 +535,10 @@
   :colorscheme ["5F6353" "F8F9E8"]
   :covers [
     {
-      :url "https://archive.org/download/apo10/LowerPlaces.jpg"
+      :url "/images/covers/apo010-front.jpg"
     }
     {
-      :url "https://archive.org/download/apo10/Tracklist.jpg"
+      :url "/images/covers/apo010-tracklist.jpg"
     }
   ]
   :release-notes "Beautiful and rich soundscapes."
@@ -619,10 +611,10 @@
   :colorscheme ["2A2A2A" "ACACAC"]
   :covers [
     {
-      :url "https://archive.org/download/apo011/FRONT.jpg"
+      :url "/images/covers/apo011-front.jpg"
     }
     {
-      :url "https://archive.org/download/apo011/Back.jpg"
+      :url "/images/covers/apo011-back.jpg"
     }
   ]
   :release-notes "Powerful and playful."
@@ -699,11 +691,7 @@
   :catalog-number 1
   :catalog-prefix "aposet"
   :colorscheme ["8E3718" "E8EAF8"]
-  :covers [
-    {
-      :url "http://images.prachanda.zhdk.anorg.net/release/5519.jpg"
-    }
-  ]
+  :covers []
   :release-notes "Lots and lots of Venetian Snares."
   :tracks [
     {
@@ -739,7 +727,7 @@
   :colorscheme ["A25F3B" "F5D89B"]
   :covers [
     {
-      :url "https://archive.org/download/aposet02/cover.jpg"
+      :url "/images/covers/aposet02.jpg"
     }
   ]
   :release-notes "May the custom of giving away old, unreleased music live long ! Thirty two minutes of glitchy and/or chillout electronic sounds. I can't say this is innovative in any way (and if you listen close enough, you'll find a number of preset/samplepack cliches - sorry!) but it sure makes my retrospective, laidback smoking sessions wonderfully enjoyable. Enjoy. (no breaks here too, hehe)"
@@ -771,7 +759,7 @@
   :colorscheme ["CB0713" "968966"]
   :covers [
     {
-      :url "https://archive.org/download/aposet03/korporatiaedit.jpg"
+      :url "/images/covers/aposet03.jpg"
     }
   ]
   :release-notes "Edited version of a bedroom concerto."
@@ -809,7 +797,7 @@
   :colorscheme ["700A07" "FD5451"]
   :covers [
     {
-      :url "https://archive.org/download/aposet04/drillovnicamini.jpg"
+      :url "/images/covers/aposet04.jpg"
     }
   ]
   :release-notes "Relentless Drill'n'Bass from the breaks connoisseur."
@@ -838,11 +826,7 @@
   :catalog-number 1
   :catalog-prefix "mvapo"
   :colorscheme ["24355D" "E2CA89"]
-  :covers [
-    {
-      :url "http://images.prachanda.zhdk.anorg.net/release/7360.jpg"
-    }
-  ]
+  :covers []
   :release-notes "Released together with the Musica Vermella netlabel."
   :tracks [
     {
@@ -901,7 +885,7 @@
   :colorscheme ["24355D" "E2CA89"]
   :covers [
     {
-      :url "https://archive.org/download/apo013/01where_is_the.jpg"
+      :url "/images/covers/apo013.jpg"
     }
   ]
   :release-notes "There's a question we've been asking constantly for the past couple of years. Yes, the kick is nice but WHERE'S THE FUCKIN' SNARE? Here it is. Enjoy."
@@ -924,7 +908,7 @@
   :colorscheme ["24355D" "E2CA89"]
   :covers [
     {
-      :url "https://archive.org/download/apo014/dde%20-rmx.jpg"
+      :url "/images/covers/apo014.jpg"
     }
   ]
   :release-notes "Ddekombinacja recombined."
